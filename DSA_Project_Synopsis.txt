@@ -1,0 +1,79 @@
+                                                            * Project Synopsis *
+
+Project Name - Graph based Social Network Analysis 
+
+Participants (Div. 1 S5) - 
+    Indranil Kavade - 612303090
+    Rajwardhan Kharade - 612303093
+    Sarang Kulkarni - 612303099
+
+For a Graph-Based Social Network Analysis project in C, the input and output can be defined as follows:
+
+Input:
+    1.Graph Data: This typically includes nodes (representing users) and edges (representing relationships or interactions between users).
+    2.Adjacency Matrix: A 2D array where each cell ((i, j)) indicates the presence or absence of an edge between nodes (i) and (j).
+    3.Edge List: A list of pairs, where each pair ((u, v)) represents an edge between nodes (u) and (v).
+    4.Adjacency List: A list where each element is a list of nodes connected to a particular node.
+    5.Node Attributes: Additional information about each node, such as user profiles, activity levels, or other relevant attributes.
+    6.Edge Attributes: Information about the edges, such as type of the relationship (friendship, follow, etc.) or strength of the connection.
+
+Output:
+    1.Centrality Measures: Metrics that identify the most important or influential nodes in the network, such as:
+        a.Degree Centrality: Number of direct connections a node has.
+        b.Betweenness Centrality: Frequency at which a node appears on the shortest paths between other nodes.
+        c.Closeness Centrality: Measure of how close a node is to all other nodes in the network.
+    2.Community Detection: Identification of clusters or groups of nodes that are more densely connected to each other than to rest of network.
+    3.Path Analysis: Information about the shortest paths, longest paths, or other path-related metrics between nodes.
+    4.Visualization: Graphical representation of the network, highlighting key nodes, communities, and other important features.
+    5.Link Prediction: Predicting the likelihood of future connections between nodes based on current network structure and attributes.    
+
+* Points to be covered in the intro : 
+1. A concise summary of the project's objectives, scope, and key components 
+2. The problem the project aims to solve 
+3. The data structures being implemented and their relevance for solving the problem
+4. The algorithms employed, their efficiency, and how they are integrated with the chosen data structures to optimize performance
+5. Any real-world applications and future enhancements
+
+1. A concise summary of the project's objectives, scope, and key components :
+   The project's aim is to develop a social network analysis tool using graph-based algorithms in C.
+   The scope includes identifying key influencers, detecting communities, and measuring network robustness.
+   Key components are graph data structures (nodes and edges), algorithms for shortest paths and centrality measures, community detection methods, and a UI.
+   The project also involves optimizing performance and handling large datasets efficiently.
+
+2. The problem the project aims to solve :
+   This project addresses the challenge of understanding and analyzing complex social networks.
+   Traditional methods can be inefficient and fail to capture intricate relationships within large datasets. 
+   By using graph-based algorithms, this tool transforms massive and intricate webs of connections into comprehensible patterns and actionable data.          
+
+3. The data structures being implemented and their relevance for solving the problem :
+   For the Graph-Based Social Network Analysis project in C, the key data structures include:
+    a. Adjacency List: Efficiently stores sparse graphs by listing nodes and their adjacent nodes. This helps in quickly traversing connections in large networks.
+    b. Adjacency Matrix: Stores dense graphs, making it easier to perform matrix operations like finding shortest paths and centrality measures.
+    c. Graph Nodes and Edges: Represent users and their interactions respectively. These fundamental components allow for detailed mapping and analysis of the network. 
+    d. Priority Queue: Used in algorithms like Dijkstra’s shortest path to manage and retrieve nodes with the smallest tentative distance efficiently.
+   These structures are essential as they enable the efficient storage, traversal, and manipulation of large social networks, thereby allowing for meaningful analysis     and insights.
+
+4. The algorithms employed, their efficiency, and how they are integrated with the chosen data structures to optimize performance :
+   The project utilizes several graph-based algorithms to analyze social networks efficiently:
+    a. Dijkstra’s Algorithm: Computes the shortest path between nodes. It integrates with the priority queue to efficiently retrieve nodes with the smallest tentative         distance, optimizing performance in sparse graphs.
+    b. Betweenness Centrality: Measures the importance of nodes based on the number of shortest paths passing through them. This algorithm leverages adjacency lists           for quick traversal and efficient computation.
+    c. Breadth-First Search (BFS): Explores nodes layer by layer. Used for community detection and integrates seamlessly with adjacency lists for efficient node               traversal in large networks.
+    d. PageRank: Evaluates node importance similar to Google's algorithm. Utilizes the adjacency matrix for matrix multiplication operations, effectively calculating          the rank of nodes.
+    e. Louvain Method: Detects communities by optimizing modularity. This algorithm benefits from adjacency lists to iteratively refine communities.
+    By integrating these algorithms with the appropriate data structures, project ensures efficient computation and handles large social network datasets effectively.
+
+5. Any real-world applications and future enhancements :
+   A. Real-world applications - 
+      This project's real-world applications are vast:
+      a. Marketing: Identify key influencers to optimize ad campaigns.
+      b. Social Science: Understand community dynamics and social interactions.
+      c. Organizational Analysis: Improve communication and collaboration within companies.
+
+   B. Future enhancements -
+      Future enhancements could include :
+      a. Incorporating machine learning for predictive analytics.
+      b. Real-time network analysis and enhancing visualization tools to handle even more complex data sets with ease.
+
+This is overall brief idea about our "Graph-Based Social Network Analysis" project ! 
+
+
