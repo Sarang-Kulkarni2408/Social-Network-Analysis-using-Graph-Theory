@@ -1,0 +1,11 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+project
+project_asan
+
+# OS / editor cruft
+.vscode/
+.DS_Store
+*.swp
